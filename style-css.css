@@ -1,0 +1,132 @@
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+.banner {
+	background-image: url("images/background.jpg");
+	background-size: 100%;
+	display: flex;
+	background-color: darkgrey;
+	height: 500px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner h1 {
+	color: white;
+	font-family: "Chivo", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 45px;
+}
+
+.banner h2 {
+	color: #C0C2C2;
+	font-family: "Overpass", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: baseline;
+	word-spacing: 0px;
+	margin: 24px 0px;
+	font-size: 24px;
+}
+
+.blue-btn {
+	display: inline-block;
+	background-color: #1A48E3;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 16px 48px;
+	font-family: "Overpass", sans-serif;
+	vertical-align: baseline;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.cards-title {
+	color: black;
+	font-family: "Chivo", sans-serif;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	margin: 23px 0;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+	background-color: white;
+	height: 400px;
+	width: 280px;
+	box-sizing: border-box;
+	padding: 22px;
+	flex-direction: column;
+	box-shadow: 0 0 10px lightgrey;
+}
+
+.pictures {
+	object-fit: cover;
+	background-size: 100%;
+	border-radius: 5px;
+	height: 200px;
+	width: 235px;
+}
+
+.card-title {
+	color: #404042;
+	text-align: left;
+	font-family: "Chivo", sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 700;
+	width: 100%;
+}
+
+.card-description {
+	text-align: justify;
+	color: #404042;
+	font-family: "Overpass", sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	width: 100%;
+}
+
+.map {
+	width: 100%;
+	margin: 50px 0 25px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.footer {
+	background-color: #404042;
+	height: 200px;
+	display: flex;
+	color: white;
+	margin: 60px 0 0 0;
+}
+
+.footer h3 {
+	font-family: "Overpass", sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+}
